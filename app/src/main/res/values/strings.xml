@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PdfReader</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="pdf_reader">pdf reader</string>
+    <string name="demo2">demo2</string>
+    <string name="demo1">demo1</string>
+</resources>
