@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.etiantian.pdfreader.App;
 import com.etiantian.pdfreader.util.PdfHelper;
+import com.github.chrisbanes.photoview.PhotoView;
 
 /**
  * Created by zhouweixian on 2017/3/24
@@ -63,7 +64,7 @@ public class PdfPagerAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup view, int position) {
         Bitmap bitmap = helper.getBitmap(position);
-        ImageView imageView = new ImageView(App.getInstance());
+        ImageView imageView = new PhotoView(App.getInstance());
         imageView.setImageBitmap(bitmap);
         view.addView(imageView);
         return imageView;

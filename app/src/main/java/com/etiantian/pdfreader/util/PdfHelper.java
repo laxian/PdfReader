@@ -18,7 +18,7 @@ public class PdfHelper {
     private ParcelFileDescriptor mFileDescriptor;
     private Context mContext;
     private int index = 0;
-    private static final String SAMPLE_FILE = "sample.pdf";
+    private static final String SAMPLE_FILE = "moby.pdf";
 
 
     public static PdfHelper getPdfHelper(Context context, String pdfPath) {

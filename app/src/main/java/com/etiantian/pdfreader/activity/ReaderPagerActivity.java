@@ -31,7 +31,7 @@ public class ReaderPagerActivity extends AppCompatActivity implements View.OnCli
             getSupportActionBar().setTitle("ReaderPagerActivity");
 
 //        pdfHelper = PdfHelper.getPdfHelper(this, "/sdcard/sample.pdf");
-        pdfHelper = PdfHelper.getPdfHelper(this, "file:///android_asset/sample.pdf");
+        pdfHelper = PdfHelper.getPdfHelper(this, "file:///android_asset/moby.pdf");
 
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mViewPager.setAdapter(new PdfPagerAdapter(pdfHelper));
